@@ -73,15 +73,24 @@ body {
 }
 
 .call-to-action {
-  color: black;
-  text-decoration:underline;
-  background-color: rgb(255, 183, 183);
-  border-radius: 5%;
+  border-radius: 40%;
+  background: linear-gradient(45deg, rgb(9, 255, 0), #0ff, #f0f);
+  color: #000000;
+  font-size: 5vh;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.call-to-action:hover {
+  color: #000000;
+  font-size: 5vh;
+  text-decoration: none;
+  overflow: hidden;
 }
 
 /*--------------------------------------------Footer*/
 footer {
-  background-color: #F4EEEE;
+  background-color: #FFDBAA;
   min-height: 120px;
   margin: 0;
 }
@@ -119,6 +128,15 @@ footer {
   background-color: rgb(244, 238, 238, 0.8);
 }
 
+.image > img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.article-margin {
+  margin-top: 5%;
+}
+
 /*--------------------------------------------Prices*/
 .margin {
   margin-top: 2vh;
@@ -126,3 +144,15 @@ footer {
 }
 
 /*--------------------------------------------Contact Us*/
+
+.nav-adres {
+  color: black;
+}
+
+.nav-adres:hover {
+  color: black;
+}
+
+.alert {
+  display: none;
+}
