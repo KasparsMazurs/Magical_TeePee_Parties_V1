@@ -8,15 +8,14 @@ h1, h2, h3, h4 {
 }
 
 body {
-  background-image: url(../images/Magickal_TeePee_Parties_Logo.webp);
-  background-repeat: no-repeat;
+  background: url(../images/Magickal_TeePee_Parties_Logo.webp) no-repeat bottom right fixed;
 }
 
 /*--------------------------------------------Header*/
 
 .logo {
   background-image: url(../images/Magickal_TeePee_Parties_Logo.webp);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 10vh;
@@ -70,13 +69,14 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: rgb(150, 194, 145, 0.5);
+  background-color: rgb(150, 194, 145, 0.3);
 }
 
 .call-to-action {
   color: black;
-  background-color:  #FFB7B7;
-  width: 20vh;
+  text-decoration:underline;
+  background-color: rgb(255, 183, 183);
+  border-radius: 5%;
 }
 
 /*--------------------------------------------Footer*/
@@ -112,4 +112,15 @@ footer {
 
 .black {
   color: black;
+}
+
+/*--------------------------------------------Articles*/
+.article-bg {
+  background-color: rgb(244, 238, 238, 0.8);
+}
+
+/*--------------------------------------------Prices*/
+.margin {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
