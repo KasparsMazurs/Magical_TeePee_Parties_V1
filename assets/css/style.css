@@ -3,10 +3,6 @@
   font-family: 'Alice', serif;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Playball', cursive;
-}
-
 body {
   background: url(../images/Magickal_TeePee_Parties_Logo.webp) no-repeat bottom right fixed;
 }
@@ -69,23 +65,24 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: rgb(150, 194, 145, 0.3);
+  background-color: rgb(244, 238, 238, 0.6);
 }
 
 .call-to-action {
   border-radius: 40%;
-  background: linear-gradient(45deg, rgb(9, 255, 0), #0ff, #f0f);
   color: #000000;
   font-size: 5vh;
   text-decoration: none;
-  overflow: hidden;
-}
+} 
 
 .call-to-action:hover {
   color: #000000;
   font-size: 5vh;
   text-decoration: none;
-  overflow: hidden;
+}
+
+.playball-font {
+  font-family: 'Playball', cursive;
 }
 
 /*--------------------------------------------Footer*/
@@ -141,6 +138,10 @@ footer {
 .margin {
   margin-top: 2vh;
   margin-bottom: 2vh;
+}
+
+.margin-top {
+  margin-top: 2vh;
 }
 
 /*--------------------------------------------Contact Us*/
