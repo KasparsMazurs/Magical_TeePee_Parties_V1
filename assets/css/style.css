@@ -1,10 +1,10 @@
-
 * {
-  font-family: 'Alice', serif;
+  font-family: "Alice", serif;
 }
 
 body {
-  background: url(../images/Magickal_TeePee_Parties_Logo.webp) no-repeat bottom right fixed;
+  background: url(../images/Magickal_TeePee_Parties_Logo.webp) no-repeat bottom
+    right fixed;
 }
 
 /*--------------------------------------------Header*/
@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-  background-color: #FFDBAA;
+  background-color: #ffdbaa;
 }
 
 .navbar-brand {
@@ -73,7 +73,7 @@ body {
   color: #000000;
   font-size: 5vh;
   text-decoration: none;
-} 
+}
 
 .call-to-action:hover {
   color: #000000;
@@ -82,12 +82,12 @@ body {
 }
 
 .playball-font {
-  font-family: 'Playball', cursive;
+  font-family: "Playball", cursive;
 }
 
 /*--------------------------------------------Footer*/
 footer {
-  background-color: #FFDBAA;
+  background-color: #ffdbaa;
   min-height: 120px;
   margin: 0;
 }
@@ -112,7 +112,7 @@ footer {
 }
 
 .contact {
-  background-color: #FFB7B7;
+  background-color: #ffb7b7;
   color: black;
 }
 
@@ -156,4 +156,8 @@ footer {
 
 .alert {
   display: none;
+}
+
+.h1-font {
+  font-size: x-large;
 }
